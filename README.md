@@ -18,20 +18,20 @@ Ssh port is 2200. The configuration process was as follows:
 
 The software and python packages installed during configuration were:
 
-apache2
-libapache2-mod-wsgi
-pip
-python
-oauth2client
-flask
-sqlalchemy
-sqlalchemy-utils
-unzip
-requests
+* apache2
+* libapache2-mod-wsgi
+* pip
+* python
+* oauth2client
+* flask
+* sqlalchemy
+* sqlalchemy-utils
+* unzip
+* requests
 
 Resources consulted
-https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04
-https://idroot.us/tutorials/how-to-change-ssh-port-in-ubuntu/
-https://umar-yusuf.blogspot.com/2018/02/deploying-python-flask-web-app-on.html
-https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension
-https://stackoverflow.com/questions/1518729/change-sqlite-database-mode-to-read-write
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04
+* https://idroot.us/tutorials/how-to-change-ssh-port-in-ubuntu/
+* https://umar-yusuf.blogspot.com/2018/02/deploying-python-flask-web-app-on.html
+* https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension
+* https://stackoverflow.com/questions/1518729/change-sqlite-database-mode-to-read-write
