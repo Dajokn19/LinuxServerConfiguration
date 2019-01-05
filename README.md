@@ -15,6 +15,8 @@ Ssh port is 2200. The configuration process was as follows:
 5. configured apache2 to display the app by creating /var/www/catalogApp/myApp.wsgi and /etc/apache2/sites-available/myApp.conf then disabling the default site
 6. Debugged the app using the resources below
 7. Added grader as a user with sudo access and generated an ssh key pair for them
+8. Disabled remote root login by changing sshd_config to read PermitRootLogin no
+9. Ran sudo apt-get upgrade to upgrade system packages
 
 The software and python packages installed during configuration were:
 
@@ -35,3 +37,4 @@ Resources consulted
 * https://umar-yusuf.blogspot.com/2018/02/deploying-python-flask-web-app-on.html
 * https://stackoverflow.com/questions/26080872/secret-key-not-set-in-flask-session-using-the-flask-session-extension
 * https://stackoverflow.com/questions/1518729/change-sqlite-database-mode-to-read-write
+* https://www.tecmint.com/disable-ssh-root-login-in-linux/
